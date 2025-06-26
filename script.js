@@ -1,5 +1,5 @@
 // URL base de la API
-const API_URL = "http://basesqlapi.somee.com/api/Producto";
+const API_URL = "https://basesqlapi.somee.com/api/Producto";
 
 // Espera a que el DOM esté completamente cargado
 $(document).ready(function () {
