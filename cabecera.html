@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Global Ags</title>
+    <link rel="stylesheet" type="text/css" href="https://www.ags.gob.mx/styles/global-ags.css" />
+    <link rel="stylesheet" type="text/css" href="https://www.ags.gob.mx/styles/global-menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header>
+        <div id="globalbar">
+            <div class="globalbar-sides" id="sides-logo">
+                <div class="globalbar-logo" title="Volver a ags.gob.mx">
+                    <a href="https://www.ags.gob.mx">
+                        <img alt="H. Ayuntamiento de  Aguascalientes" id="ags-logo"
+                            src="https://www.ags.gob.mx/images/logo_muni-blanco-color.png" /></a>
+                </div>
+                <div id="btn-globalmenu-btn" class="mob-show" onclick="clickMenu(this)">
+    
+                </div>
+            </div>
+            <div class="globalbar-content">
+                <div class="globalbar-sides" id="sides-nav">
+                    <nav id="globalbar-nav" class="mob-hide">
+                        <ul>
+                            <li><a href="https://www.ags.gob.mx">Inicio</a></li>
+                            <li><a href="https://www.ags.gob.mx/transparencia/index.aspx">Transparencia</a></li>
+                            <li><a href="https://www.ags.gob.mx/cont.aspx?p=5009">Mejora Regulatoria</a></li>
+                            <li><a href="https://saladeprensags.com/">Sala de Prensa</a></li>
+                            <li class="globalnav-vermas" onclick="clickMenu(this)"><span>Ver más</span></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="globalbar-sides" id="globalbar-buttons">
+                    <div class="globalbar-buttonslst mob-hide">
+                        <div class="globalbar-ico-telefono" title="Directorio Telefónico"
+                            onclick="location.href=('https://www.ags.gob.mx/cont.aspx?p=1850')"></div>
+                        <div class="globalbar-ico-whatsapp" title="Escribenos vía What's App"
+                            onclick="location.href=('https://wa.me/524495089898')"></div>
+                        <div class="globalbar-ico-correo" title="Correo electrónico institucional"
+                            onclick="window.open('https://correo.ags.gob.mx/', '_blank');"></div>
+                        <div class="globalbar-ico-inklusion" title="Navegación inclusiva"
+                            onclick="location.href=('https://ags.inklusion.incluirt.com/')"></div>
+                        <div class="globalbar-ico-clima abrir_clima" title="Clima en Aguascalientes"></div>
+                        <div class="globalbar-ico-facebook" title="Siguenos en Facebook"
+                            onclick="window.open('https://www.facebook.com/MunicipioAgs', '_blank');"></div>
+                        <div class="globalbar-ico-tiktok" title="Siguenos en TikTok"
+                            onclick="window.open('https://www.tiktok.com/@municipiodeags', '_blank');"></div>
+                        <div class="globalbar-ico-twitter" title="Siguenos en Twitter"
+                            onclick="window.open('https://twitter.com/MunicipioAgs', '_blank');"></div>
+                        <div class="globalbar-ico-instagram" title="Siguenos en Instagram"
+                            onclick="window.open('https://www.instagram.com/municipioags/', '_blank');"></div>
+                        <div class="globalbar-ico-youtube" title="Siguenos en Youtube"
+                            onclick="window.open('https://www.youtube.com/user/MunicipioAgs', '_blank');"></div>
+                    </div>
+                    <div id="globalbar-busqueda">
+                        <div id="grl_menu_busqueda">
+                            <input name="ctl00$txt_busquedaGrl" type="text" id="txt_busquedaGrl" class="box_busquedaGrl"
+                                placeholder="Buscar en el portal" />
+                        </div>
+                        <!--<input type="text" placeholder="Buscar en ags.gob.mx" id="btn_globalBusqueda" pattern="[A-Za-z0-9_-]{1,15}" required />-->
+                    </div>
+                    <div class="mob-show">
+                        <div class="globalbar-buttonslst">
+                            <div class="globalbar-ico-telefono" title="Directorio Telefónico"
+                                onclick="location.href=('https://www.ags.gob.mx/cont.aspx?p=1850')"></div>
+                            <div class="globalbar-ico-whatsapp" title="Escribenos vía What's App"
+                                onclick="location.href=('https://wa.me/524495089898')"></div>
+                            <div class="globalbar-ico-prensa" title="Sala de prensa"
+                                onclick="location.href=('https://www.ags.gob.mx/cont.aspx?p=2922')"></div>
+                            <div class="globalbar-ico-correo" title="Correo electrónico institucional"
+                                onclick="location.href=('https://correo.ags.gob.mx/')"></div>
+                            <div class="globalbar-ico-inklusion" title="Navegación inclusiva"
+                                onclick="location.href=('https://ags.inklusion.incluirt.com/')"></div>
+                            <div class="globalbar-ico-clima abrir_clima" title="Clima en Aguascalientes"></div>
+                            <div class="globalbar-ico-facebook" title="Siguenos en Facebook"
+                                onclick="location.href=('https://www.facebook.com/MunicipioAgs')"></div>
+                            <div class="globalbar-ico-tiktok" title="Siguenos en TikTok"
+                                onclick="location.href=('https://www.tiktok.com/@leomontanezlm/')"></div>
+                            <div class="globalbar-ico-twitter" title="Siguenos en Twitter"
+                                onclick="location.href=('https://twitter.com/MunicipioAgs')"></div>
+                            <div class="globalbar-ico-instagram" title="Siguenos en Instagram"
+                                onclick="location.href=('https://www.instagram.com/municipioags/')"></div>
+                            <div class="globalbar-ico-youtube" title="Siguenos en Youtube"
+                                onclick="location.href=('https://www.youtube.com/user/MunicipioAgs')"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="globalbar-cintillo"></div>
+    </header>
+
+    <!-- El siguiente código siempre deberá ir pegado a la etiqueta de cierre </body> -->
+
+     <!-- INICIO MENU -->
+     <div id="menuglobal" class="menuglobal-div animate__animated animate__fadeIn">
+        <div id="menuglobal-scrollarea">
+            <div id="menuglobal-cont">
+                <div class="globalmenu_btn_close" onclick="clickMenu('fromMenu')"></div>
+                <div class="menuglobal-contlst">
+                    <div class="menuglobal-cont-div menuglobal-listas menuglobal-listas-small">
+                        <div class="menuglobal-lista menulst-dos">
+                            <h2>Tu Presidencia</h2>
+                            <hr>
+                            <ul>
+                                <li><a href="https://www.ags.gob.mx/cont.aspx?p=7820">Conoce al presidente</a></li>
+                                <li><a href="https://www.ags.gob.mx/cont.aspx?p=2542">Síndicos y Regidores</a></li>
+                                <li><a href="https://www.ags.gob.mx/cont.aspx?p=1178">Dependencias</a></li>
+                                <li><a href="https://www.ags.gob.mx/turismo">Turismo</a></li>
+                                <li><a href="https://www.ags.gob.mx/PDM/PDM-2021-2024_12ene22.pdf" target="_blank">PDM 2021 - 2024</a></li>
+                                <li><a href="https://www.ags.gob.mx/index.aspx#sec_presidencia">Ver más</a></li>
+                            </ul>
+                        </div>
+                        <div class="menuglobal-lista menulst-dos">
+                            <h2>Servicios para ti</h2>
+                            <hr>
+                            <ul>
+                                    <li><a href="https://www.ags.gob.mx/delegaciones/">Delegaciones</a></li>
+                                    <li><a href="https://www.ags.gob.mx/internet_gratuito/">Puntos de Internet Gratis</a></li>
+                                    <li><a href="https://www.ags.gob.mx/cont.aspx?p=841">Bibliotecas Públicas</a></li>
+                                    <li><a href="https://www.ags.gob.mx/cont.aspx?p=4824">Centros Tecnológicos</a></li>
+                                    <li><a href="https://www.ags.gob.mx/cont.aspx?p=1182">Historia</a></li>
+                                    <li><a href="https://www.ags.gob.mx/index.aspx#sec_municipio">Ver más</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menuglobal-cont-div mob-hide" id="menuglobal-info">
+                        <div>
+                            <a href="https://www.ags.gob.mx/">
+                                <img alt="H. Ayuntamiento de Aguascalientes" src="https://www.ags.gob.mx/images/logo_muni-blanco-color.png" />
+                            </a>
+                            <div>
+                                <h3>H. Ayuntamiento de Aguascalientes 2021 - 2024.<br>
+                                    Plaza Patria S/N, Zona Centro, Aguascalientes, Ags. CP. 20000.<br>
+                                    <a href="tel:+52449072">072</a> o <a href="tel:+52449072">4499101072</a> / 365 días / 24 horas | Teléfono: <a href="tel:+524499101010">4499101010</a><br> Atención vía WhatsApp <a href="https://wa.me/524495089898">4495089898</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuglobal-cont-div menuglobal-listas menuglobal-listas-large">
+                        <div class="menuglobal-lista menulst-dos">
+                            <h2><h2>Transparencia</h2></h2>
+                            <hr>
+                            <div><ul>
+                                    <li><a href="https://www.ags.gob.mx/transparencia/art55.aspx">Artítulo 55°</a></li>
+                                    <li><a href="https://www.ags.gob.mx/transparencia/art56.aspx">Artítulo 56°</a></li>
+                                    <li><a href="https://www.ags.gob.mx/transparencia/transpresupuestal.aspx">Transparencia Presupuestal</a></li>
+                                    <li><a href="https://www.ags.gob.mx/transparencia/contrans.aspx?p=4100">Ley General de Contabilidad</a></li>
+                                </ul>    
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a href="https://www.ags.gob.mx/transparencia/contrans.aspx?p=218">Formato único<br>de Hacienda</a></li>
+                                    <li><a href="https://www.ags.gob.mx/transparencia/index.aspx">Ver más</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menuglobal-lista menulst-dos">
+                            <h2>Mejora Regulatoria</h2>
+                            <hr>
+                            <div>
+                                <ul>
+                                    <li><a href="https://www.ags.gob.mx/mejoraregulatoria/PROGRAMA%20DE%20MEJORA%20REGULATORIA%202021-2024.pdf" target="_blank">Programa de Mejora Regulatoria 2021 - 2024</a></li>
+                                    <li><a href="https://www.ags.gob.mx/cont.aspx?p=5003">Padrón de Inspectores</a></li>
+                                    <li><a href="https://www.ags.gob.mx/cont.aspx?p=7018">Registro de Regulaciones</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a href="https://www.ags.gob.mx/cont.aspx?p=2604">Protesta Ciudadana</a></li>
+                                    <li><a href="https://www.ags.gob.mx/mejoraregulatoria/2022/Agenda%20Regulatoria%20%20Julio%20%20a%20Diciembre%20%202022.pdf" target="_blank">Agenda Regulatoria</a></li>
+                                    <li><a href="https://www.ags.gob.mx/cont.aspx?p=5009">Ver más</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menuglobal-cont-div" id="menuglobal-destacadas">
+                    <hr class="margintop25">
+                    <div class="destacadaGroup group-tres group-border">
+                        <h2>Servicios Digitales</h2>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://epagosmunicipio.ags.gob.mx/Inicio.aspx')" title="Paga, consulta y factura">
+                        <div class="destacada-bg" id="destacada-pagos"></div>
+                        <span>Centro de Pagos</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/servicios2/sare/default.aspx')">
+                            <div class="destacada-bg" id="destacada-sare"></div>
+                            <span>Apertura de Empresas</span>
+                        </div>
+                        <!--<div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/cont.aspx?p=1195')">
+                            <div class="destacada-bg" id="destacada-telefonos"></div>
+                            Teléfonos de Emergencia
+                        </div>-->
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/reglamentos/')">
+                            <div class="destacada-bg" id="destacada-reglamentos"></div>
+                            <span>Reglamentos</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/PadronMascotas/')">
+                            <div class="destacada-bg" id="destacada-mascotas"></div>
+                            <span>Padrón de Mascotas</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/cam/')">
+                            <div class="destacada-bg" id="destacada-cam"></div>
+                            <span>Información de Trámites</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/index.aspx#sec_servicios')">
+                            <div class="destacada-bg" id="destacada-mas"></div>
+                            <span>Ver Más</span>
+                        </div>
+                    </div>
+                    <div class="destacadaGroup group-dos group-border">
+                        <h2>¿Quieres vender a municipio?</h2>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/servicios/ecompras/menuecompras.asp')">
+                            <div class="destacada-bg" id="destacada-ecompras"></div>
+                            <span>E-Compras</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/cont.aspx?p=2504')">
+                            <div class="destacada-bg" id="destacada-concursos"></div>
+                            <span>Concursos</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/cont.aspx?p=1917')">
+                            <div class="destacada-bg" id="destacada-licitaciones"></div>
+                            <span>Licitaciones y Convocatorias</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/index.aspx#sec_servicios')">
+                            <div class="destacada-bg" id="destacada-mas"></div>
+                            <span>Ver Más</span>
+                        </div>
+                    </div>
+                    <div class="destacadaGroup group-dos">
+                        <h2>¿Quieres Construir?</h2>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://tramites.ags.gob.mx/')">
+                            <div class="destacada-bg" id="destacada-construccion"></div>
+                            <span>Trámites de Construcción</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/avaluos/')">
+                            <div class="destacada-bg" id="destacada-avaluos"></div>
+                            <span>Avalúos</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/servicios/pisabit/login.asp')">
+                            <div class="destacada-bg" id="destacada-pisabit"></div>
+                            <span>PISABIT</span>
+                        </div>
+                        <div class="menuglobal-destacada" onclick="location.href=('https://www.ags.gob.mx/index.aspx#sec_servicios')">
+                            <div class="destacada-bg" id="destacada-mas"></div>
+                            <span>Ver Más</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN MENU -->
+
+    <!-- El menú utiliza funcones de jquery por lo que si ek proyecto ya lo incluye, la siguiente línea se puede omitir -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://www.ags.gob.mx/scripts/global-ags.js"></script>
+
+    <!-- Funciones para controlar la accion de abrir y cerrar menú -->
+    <script>
+        let menuEstado = "";
+
+        function clickMenu(x) {
+                
+            //x.classList.toggle("change");
+            if (menuEstado === "") {
+                menuEstado = "abierto";
+                document.getElementById("menuglobal").style.display = "block";
+                document.body.classList.add('hidescroll');
+            }
+            else if (menuEstado === "abierto") {
+                menuEstado = "cerrado";
+                document.getElementById("menuglobal").style.display = "none";
+                document.body.classList.remove('hidescroll');
+                if(x != "fromMenu"){
+                    var menu_url = "https://ags.gob.mx/index.aspx#"+x;
+                    window.location.href = menu_url;
+                }
+            }
+            else {
+                menuEstado = "abierto";
+                document.getElementById("menuglobal").style.display = "block";
+                document.body.classList.add('hidescroll');
+            }
+        }
+        document.onkeydown = function(evt) {
+            evt = evt || window.event;
+            if (evt.key === 'Escape') {
+                menuEstado = "cerrado";
+                document.getElementById("menuglobal").style.display = "none";
+                document.body.classList.remove('hidescroll');
+            }
+        };
+    </script>
+
+    <!-- Funciones para el envío del input "Buscar en el portal" --->
+    <script>
+        var busquedaTxt = document.getElementById("txt_busquedaGrl");
+        
+        busquedaTxt.addEventListener("keyup", function(event) {
+            if (event.code === 'Enter') {
+                var busqueda = "https://www.ags.gob.mx/resultado_busqueda.aspx?b=a&p="+busquedaTxt.value;
+                window.open(busqueda, "_blank");
+            }
+        });
+    </script>
+</body>
+
+</html>
